@@ -2,6 +2,11 @@ package frc.team6220.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 
+/**
+ * @author Owen Ryan
+ * @author Ashley Kim
+ * TODO code stuff
+ */
 public class Robot extends IterativeRobot {
     @Override
     public void robotInit() { }
