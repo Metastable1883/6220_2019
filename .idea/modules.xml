@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Owen's_Education.iml" filepath="$PROJECT_DIR$/.idea/modules/Owen's_Education.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Owen's_Education_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Owen's_Education_main.iml" group="Owen's_Education" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Owen's_Education_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Owen's_Education_test.iml" group="Owen's_Education" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="Owen's_Education_main" target="1.9" />
-      <module name="Owen's_Education_test" target="1.9" />
-    </bytecodeTargetLevel>
-  </component>
-</project>
