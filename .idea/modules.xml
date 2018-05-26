@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/6220_2019.iml" filepath="$PROJECT_DIR$/.idea/modules/6220_2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/6220_2019_main.iml" filepath="$PROJECT_DIR$/.idea/modules/6220_2019_main.iml" group="6220_2019" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/6220_2019_test.iml" filepath="$PROJECT_DIR$/.idea/modules/6220_2019_test.iml" group="6220_2019" />
       <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
     </modules>
   </component>
