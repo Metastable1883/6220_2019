@@ -39,7 +39,6 @@ public class Robot extends IterativeRobot {
 
     @Override
     public void robotInit () /*throws NullPointerException*/ {
-    //if you dont give a dog a leash it will run into the street and die. Now I dont ever want that happening to a robit
         System.out.println("Exception in thread \"Robot\" java.lang.NullPointerException there are no errors");
         memeBot = new DifferentialDrive(LGRP, RGRP);
         js = new Joystick(0);
