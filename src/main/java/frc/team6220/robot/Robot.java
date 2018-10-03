@@ -52,18 +52,13 @@ public class Robot extends IterativeRobot {
 
         js1 = new Joystick(0);
         js2 = new Joystick(1);
+        //likely not most efficient way to do vision
         UsbCamera usbCamera = new UsbCamera("USB Camera 0", 0);
-
         MjpegServer mjpegServer1 = new MjpegServer("serve_USB Camera 0", 1181);
-
         mjpegServer1.setSource(usbCamera); CvSink cvSink = new CvSink("opencv_USB Camera 0");
-
         mjpegServer1.setSource(usbCamera);
-
         CvSource outputStream = new CvSource("Blur", VideoMode.PixelFormat.kMJPEG, 640, 480, 30);
-
         MjpegServer mjpegServer2 = new MjpegServer("serve_Blur", 1182);
-
         mjpegServer2.setSource(outputStream);
     }
 
